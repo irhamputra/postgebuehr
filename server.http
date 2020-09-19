@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/v1/calculation
+Content-Type: application/json
+
+{
+  "from": "40791",
+  "to": "42113"
+}
+
+###
+GET http://localhost:3000/api/v1/cities
+Accept: application/json
+
+###
